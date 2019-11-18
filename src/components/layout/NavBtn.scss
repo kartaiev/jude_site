@@ -1,0 +1,54 @@
+.nav-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5;
+    transition: 1s;
+
+    .nav-line {
+        width: 28px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: black;
+        transition: 1s;
+    }
+
+    &-close {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+        z-index: 5;
+        transition: 1s;
+        transform: rotate(180deg);
+
+        .nav-line:nth-child(1) {
+            width: 28px;
+            height: 3px;
+            margin-bottom: 5px;
+            background: black;
+            transform: rotate(45deg) translate(5px, 5px);
+            transition: 1s;
+
+        }
+
+        .nav-line:nth-child(2) {
+            width: 28px;
+            height: 3px;
+            margin-bottom: 5px;
+            background: black;
+            transition: 1s;
+            opacity: 0;
+        }
+
+        .nav-line:nth-child(3) {
+            width: 28px;
+            height: 3px;
+            margin-bottom: 5px;
+            background: black;
+            transform: rotate(-45deg) translate(7px, -6px);
+            transition: 1s;
+        }
+    }
+}

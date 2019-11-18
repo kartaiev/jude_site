@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { Navbar } from './components/layout/Navbar';
+import NavBtn from './components/layout/NavBtn';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = { show: true, classEl: '' };
+
+  showEl = () => {
+    if (this.state.show) this.setState({ show: false, classEl: '-close' });
+    else this.setState({ show: true, classEl: '' });
+  };
+
+  render() {
+    const {classEl} = this.state;
+    return (
+      <div className='App'>
+        <Navbar />
+        <NavBtn showEl={this.showEl} classEl={classEl}/>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import './Navbar.css';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Navbar.scss";
 
-class Navbar extends Component {
-
-  state = {};
-
-  render () {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
-
-export default Navbar;
+export const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li>
+          <NavLink className="link" to="/1">
+            Урок <span>№</span>1
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
+};

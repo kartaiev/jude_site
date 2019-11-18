@@ -1,16 +1,14 @@
-import React from "react";
-import "./Nav-btn.css";
+import React from 'react';
+import './NavBtn.scss';
 
-export const NavBtn = () => {
+const NavBtn = ({ classEl, showEl }) => {
   return (
-    <div className="nav-btn" onClick={this.handleClick}>
-      <div className="nav-line" />
-      <div className="nav-line" />
-      <div className="nav-line" />
+    <div className={`nav-btn${classEl}`} onClick={showEl}>
+      <div className='nav-line' />
+      <div className='nav-line' />
+      <div className='nav-line' />
     </div>
   );
 };
 
-const handleClick = () => {
-  style = {};
-};
+export default NavBtn;
