@@ -1,0 +1,14 @@
+.nav-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.nav-line {
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: #F9F7F3;
+}
