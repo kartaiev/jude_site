@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBtn.scss';
 
-const NavBtn = ({ classEl, showEl }) => {
+export const NavBtn = ({ classEl, showEl }) => {
   return (
     <div className={`nav-btn${classEl}`} onClick={showEl}>
       <div className='nav-line' />
@@ -11,4 +11,3 @@ const NavBtn = ({ classEl, showEl }) => {
   );
 };
 
-export default NavBtn;

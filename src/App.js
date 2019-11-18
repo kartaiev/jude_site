@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Navbar } from './components/layout/Navbar';
-import NavBtn from './components/layout/NavBtn';
+import { NavBtn } from './components/layout/NavBtn';
 
 class App extends Component {
   state = { show: true, classEl: '' };
@@ -12,11 +12,11 @@ class App extends Component {
   };
 
   render() {
-    const {classEl} = this.state;
+    const { classEl } = this.state;
     return (
       <div className='App'>
         <Navbar />
-        <NavBtn showEl={this.showEl} classEl={classEl}/>
+        <NavBtn showEl={this.showEl} classEl={classEl} />
       </div>
     );
   }
