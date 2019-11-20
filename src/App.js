@@ -1,21 +1,25 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Navbar } from './components/layout/Navbar';
-import { NavBtn } from './components/layout/NavBtn';
+import React, { Component } from "react";
+import "./App.scss";
+import { Navbar } from "./components/layout/Navbar";
+import { NavBtn } from "./components/layout/NavBtn";
 
 class App extends Component {
-  state = { show: true, classEl: '' };
+  state = {
+    show: true,
+    classEl: "close",
+    lessons: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  };
 
   showEl = () => {
-    if (this.state.show) this.setState({ show: false, classEl: '-close' });
-    else this.setState({ show: true, classEl: '' });
+    if (this.state.show) this.setState({ show: false, classEl: "show" });
+    else this.setState({ show: true, classEl: "close" });
   };
 
   render() {
-    const { classEl } = this.state;
+    const { classEl, lessons } = this.state;
     return (
-      <div className='App'>
-        <Navbar />
+      <div className="App">
+        <Navbar classEl={classEl} lessons={lessons} showEl={this.showEl} />
         <NavBtn showEl={this.showEl} classEl={classEl} />
       </div>
     );

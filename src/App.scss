@@ -1,11 +1,14 @@
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
-  background: #F9F7F3;
+  background: url("assets/images/back.png");
 }
 
 .App {
