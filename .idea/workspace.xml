@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb98f78c-5b15-48ce-aef8-d4e4e1541aff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scssLintPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/helpers/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jude/.idea/jude.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jude/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jude/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jude/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jude_site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jude_site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBtn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBtn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -111,8 +106,16 @@
       <workItem from="1574117586839" duration="5688000" />
       <workItem from="1574167578262" duration="176000" />
       <workItem from="1574167787097" duration="673000" />
-      <workItem from="1574169468330" duration="22931000" />
+      <workItem from="1574169468330" duration="23990000" />
     </task>
+    <task id="LOCAL-00001" summary="Draft">
+      <created>1574261247953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574261247953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="Draft" />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="239" width="651" height="362" key="#SCSS_Lint" timestamp="1574162230610">
@@ -134,26 +139,30 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="156" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1574261247450" />
-    <state width="1254" height="183" key="GridCell.Tab.0.bottom" timestamp="1574251128304">
+    <state x="487" y="295" key="Github.ShareDialog" timestamp="1574261903991">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574251128304" />
-    <state width="1254" height="183" key="GridCell.Tab.0.center" timestamp="1574251128302">
+    <state x="487" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1574261903991" />
+    <state width="1254" height="183" key="GridCell.Tab.0.bottom" timestamp="1574262054171">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574251128302" />
-    <state width="1254" height="183" key="GridCell.Tab.0.left" timestamp="1574251128302">
+    <state width="1254" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574262054171" />
+    <state width="1254" height="183" key="GridCell.Tab.0.center" timestamp="1574262054170">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574251128302" />
-    <state width="1254" height="183" key="GridCell.Tab.0.right" timestamp="1574251128303">
+    <state width="1254" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574262054170" />
+    <state width="1254" height="183" key="GridCell.Tab.0.left" timestamp="1574262054169">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574251128303" />
-    <state x="40" y="23" key="SettingsEditor" timestamp="1574169558131">
+    <state width="1254" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574262054169" />
+    <state width="1254" height="183" key="GridCell.Tab.0.right" timestamp="1574262054170">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1574169558131" />
+    <state width="1254" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574262054170" />
+    <state x="40" y="23" key="SettingsEditor" timestamp="1574261815431">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1574261815431" />
     <state x="0" y="23" width="786" height="777" key="find.popup" timestamp="1574072757054">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
