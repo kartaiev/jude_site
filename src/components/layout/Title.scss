@@ -1,0 +1,13 @@
+@import "src/style/helpers/variables";
+
+
+.title {
+  color: $primary-font-color;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 3rem;
+
+  span {
+    font-family: 'Miama Nueva', cursive;
+    color: #1F859D;
+  }
+}

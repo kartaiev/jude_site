@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.scss";
 import { Navbar } from "./components/layout/Navbar";
 import { NavBtn } from "./components/layout/NavBtn";
+import { Title } from "./components/layout/Title";
 
 class App extends Component {
   state = {
@@ -19,6 +20,7 @@ class App extends Component {
     const { classEl, lessons } = this.state;
     return (
       <div className="App">
+        <Title />
         <Navbar classEl={classEl} lessons={lessons} showEl={this.showEl} />
         <NavBtn showEl={this.showEl} classEl={classEl} />
       </div>

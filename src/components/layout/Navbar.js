@@ -11,12 +11,7 @@ export const Navbar = ({ classEl, lessons, showEl }) => {
       <FontAwesomeIcon icon={faChevronUp} className="arrow-up" />
       <ul className={`${classEl}`}>
         {lessons.map(lesson => (
-          <li
-            className={`li-style ${classEl}`}
-            style={{ transitionDelay: `${lesson} * 1s` }}
-            onClick={showEl}
-            key={lesson}
-          >
+          <li className={`li-style ${classEl}`} onClick={showEl} key={lesson}>
             <NavLink to={`/${lesson}`} className={`link ${classEl}`}>
               Урок {lesson}
             </NavLink>
