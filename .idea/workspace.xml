@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb98f78c-5b15-48ce-aef8-d4e4e1541aff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/dirty.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/miama.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/14979.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Miama Nueva.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Miama Nueva.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Miama Nueva.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Miama Nueva.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/y Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/y Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/y Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/y Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,7 +73,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +126,12 @@
       <workItem from="1574117586839" duration="5688000" />
       <workItem from="1574167578262" duration="176000" />
       <workItem from="1574167787097" duration="673000" />
-      <workItem from="1574169468330" duration="29407000" />
+      <workItem from="1574169468330" duration="32061000" />
+      <workItem from="1574340123353" duration="77000" />
+      <workItem from="1574340685776" duration="52000" />
+      <workItem from="1574341176182" duration="204000" />
+      <workItem from="1574342361234" duration="4626000" />
+      <workItem from="1574347240807" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="Draft">
       <created>1574261247953</created>
@@ -145,11 +175,31 @@
       <option name="project" value="LOCAL" />
       <updated>1574325521702</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="scrollbar">
+      <created>1574325745661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574325745661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -160,6 +210,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="scrollbar" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="77" key="#JavaScript" timestamp="1574347522369">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#JavaScript/0.23.1280.777@0.23.1280.777" timestamp="1574347522369" />
     <state x="314" y="239" width="651" height="362" key="#SCSS_Lint" timestamp="1574162230610">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -168,38 +222,46 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1574259491285" />
-    <state x="156" y="23" key="CommitChangelistDialog2" timestamp="1574325521237">
+    <state x="156" y="23" key="CommitChangelistDialog2" timestamp="1574325745389">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="156" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1574325521237" />
+    <state x="156" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1574325745389" />
+    <state x="153" y="169" key="EditFileWatcherDialog" timestamp="1574347325274">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="153" y="169" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1574347325274" />
     <state x="487" y="295" key="Github.ShareDialog" timestamp="1574261903991">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="487" y="295" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1574261903991" />
-    <state width="1254" height="183" key="GridCell.Tab.0.bottom" timestamp="1574325049439">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom" timestamp="1574347483639">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574325049439" />
-    <state width="1254" height="183" key="GridCell.Tab.0.center" timestamp="1574325049438">
+    <state width="1238" height="203" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574347483639" />
+    <state width="1238" height="203" key="GridCell.Tab.0.center" timestamp="1574347483637">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574325049438" />
-    <state width="1254" height="183" key="GridCell.Tab.0.left" timestamp="1574325049437">
+    <state width="1238" height="203" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574347483637" />
+    <state width="1238" height="203" key="GridCell.Tab.0.left" timestamp="1574347483636">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574325049437" />
-    <state width="1254" height="183" key="GridCell.Tab.0.right" timestamp="1574325049438">
+    <state width="1238" height="203" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574347483636" />
+    <state width="1238" height="203" key="GridCell.Tab.0.right" timestamp="1574347483638">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1254" height="183" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574325049438" />
-    <state x="40" y="23" key="SettingsEditor" timestamp="1574261815431">
+    <state width="1238" height="203" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574347483638" />
+    <state x="40" y="23" key="SettingsEditor" timestamp="1574347330011">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1574261815431" />
-    <state x="140" y="88" key="Vcs.Push.Dialog.v2" timestamp="1574325536521">
+    <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1574347330011" />
+    <state x="140" y="88" key="Vcs.Push.Dialog.v2" timestamp="1574347573822">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="140" y="88" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1574325536521" />
+    <state x="140" y="88" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1574347573822" />
+    <state x="319" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1574347255513">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="319" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1574347255513" />
     <state x="0" y="23" width="786" height="777" key="find.popup" timestamp="1574072757054">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

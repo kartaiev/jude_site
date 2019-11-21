@@ -13,7 +13,7 @@
   top: 0;
   transition: 1s;
   width: 30%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 
   .arrow-up {
     font-size: 2rem;
@@ -44,6 +44,8 @@
     list-style-type: none;
     height: 100vh;
     width: 100%;
+
+
 
     @for $x from 1 through 10 {
       li:nth-child(#{$x}) {
