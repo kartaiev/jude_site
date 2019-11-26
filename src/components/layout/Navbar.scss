@@ -47,14 +47,13 @@
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 
-    &::-webkit-scrollbar { /* WebKit */
+    &::-webkit-scrollbar {
       width: 0;
       height: 0;
     }
-
 
     @for $x from 1 through 10 {
       li:nth-child(#{$x}) {
@@ -75,7 +74,6 @@
         text-align: center;
         color: darken($primary-font-color, 5%);
         text-decoration: none;
-        //border-bottom: 2px solid lighten($primary-color, 5%);
         cursor: pointer;
         display: block;
         font-family: 'Trajan Pro 3', serif;

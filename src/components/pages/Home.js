@@ -3,7 +3,7 @@ import { Title } from "../layout/Title";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Title />
     </div>
   );
