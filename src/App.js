@@ -27,7 +27,7 @@ class App extends Component {
         <Navbar classEl={classEl} lessons={lessons} showEl={this.showEl} />
         <NavBtn showEl={this.showEl} classEl={classEl} />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" render={() => <Home classEl={classEl} />} />
           <Route exact path="/1" component={Lesson1} />
           <Route exact path="/2" component={Lesson2} />
         </Switch>

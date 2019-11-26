@@ -55,7 +55,7 @@
       height: 0;
     }
 
-    @for $x from 1 through 10 {
+    @for $x from 1 through 12 {
       li:nth-child(#{$x}) {
         transition-delay: ($x+.3) * .1s;
         transition-timing-function: linear;
@@ -96,6 +96,5 @@
   &.close {
     transform: translateX(110%);
     transition: 1s;
-
   }
 }

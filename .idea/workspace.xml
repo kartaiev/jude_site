@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fb98f78c-5b15-48ce-aef8-d4e4e1541aff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +137,7 @@
       <workItem from="1574679416584" duration="5469000" />
       <workItem from="1574700461229" duration="2311000" />
       <workItem from="1574717653150" duration="9150000" />
-      <workItem from="1574772003321" duration="4582000" />
+      <workItem from="1574772003321" duration="7478000" />
     </task>
     <task id="LOCAL-00001" summary="Draft">
       <created>1574261247953</created>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574780709775</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="scroll buttons +">
+      <created>1574780803482</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574780803482</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +244,8 @@
     <MESSAGE value="scrollbar-test" />
     <MESSAGE value="font-test" />
     <MESSAGE value="scroll buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="scroll buttons" />
+    <MESSAGE value="scroll buttons +" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll buttons +" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="77" key="#JavaScript" timestamp="1574347522369">
@@ -279,10 +292,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1574771214789" />
-    <state x="140" y="88" key="Vcs.Push.Dialog.v2" timestamp="1574770849980">
+    <state x="140" y="88" key="Vcs.Push.Dialog.v2" timestamp="1574780860555">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="140" y="88" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1574770849980" />
+    <state x="140" y="88" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1574780860555" />
     <state x="319" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1574772020467">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

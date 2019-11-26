@@ -1,10 +1,11 @@
 import React from "react";
 import { Title } from "../layout/Title";
+import "./Home.scss";
 
-export const Home = () => {
+export const Home = ({ classEl }) => {
   return (
     <div className="home">
-      <Title />
+      <Title classEl={classEl} />
     </div>
   );
 };
