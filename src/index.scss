@@ -1,9 +1,17 @@
+@import "style/helpers/variables";
+
 @font-face {
-  font-family: 'Miama Nueva';
-  src: local('Miama Nueva'), url("./assets/fonts/miama.otf") format('opentype');
+  font-family: 'Caslon Antique';
+  src: local('Caslon Antique'), url("./assets/fonts/Caslon Antique.otf") format('opentype');
+
 }
 
 @font-face {
-  font-family: 'Dirty';
-  src: local('Dirty'), url("./assets/fonts/dirty.otf") format('opentype');
+  font-family: 'Handelson';
+  src: local('Handelson'), url("./assets/fonts/handelson.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Trajan Pro 3';
+  src: local('Trajan Pro 3'), url("./assets/fonts/TrajanPro.otf") format('opentype');
 }

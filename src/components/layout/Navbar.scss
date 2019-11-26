@@ -1,8 +1,8 @@
 @import "./src/style/helpers/variables";
 
 .navbar {
-  background: darken($secondary-color, 10%);
-  opacity: .6;
+  background: $secondary-color;
+  opacity: .8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,8 @@
   top: 0;
   transition: 1s;
   width: 30%;
-  overflow-x: hidden;
+  max-width: 30%;
+  overflow: hidden;
 
   .arrow-up {
     font-size: 2rem;
@@ -40,28 +41,28 @@
   }
 
   ul {
-    overflow: auto;
+    padding-right: 15px;
     list-style-type: none;
     height: 100vh;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 
+    &::-webkit-scrollbar { /* WebKit */
+      width: 0;
+      height: 0;
+    }
 
 
     @for $x from 1 through 10 {
       li:nth-child(#{$x}) {
         transition-delay: ($x+.3) * .1s;
         transition-timing-function: linear;
-        transition-duration:  .4s;
+        transition-duration: .4s;
       }
     }
-
-    //&::-webkit-scrollbar {
-    //  width: 10px;
-    //}
-    //
-    //&::-webkit-scrollbar-track {
-    //  background: $secondary-color;
-    //}
 
     .li-style {
 
@@ -72,22 +73,23 @@
 
       .link {
         text-align: center;
-        color: darken($secondary-font-color, 5%);
+        color: darken($primary-font-color, 5%);
         text-decoration: none;
-        border-bottom: 2px solid lighten($primary-color, 5%);
+        //border-bottom: 2px solid lighten($primary-color, 5%);
         cursor: pointer;
         display: block;
-        font-family: 'Philosopher', sans-serif;
-        font-size: 2rem;
+        font-family: 'Trajan Pro 3', serif;
+        font-size: 1.5rem;
         margin: 0 auto 1.5rem;
         padding: .5rem 0;
         width: 50%;
 
         &:hover {
-          border-bottom: 2px solid $secondary-font-color;
+          border-bottom: 2px solid #c95449;
           color: lighten($primary-color, 5%);
           transition-timing-function: linear;
-          transition-duration:  .4s;
+          transition-duration: .4s;
+          text-shadow: 2px 2px 2px #0c1019;
         }
       }
     }

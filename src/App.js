@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import "./App.scss";
 import { Navbar } from "./components/layout/Navbar";
 import { NavBtn } from "./components/layout/NavBtn";
-import { Title } from "./components/layout/Title";
+import { Route, Switch } from "react-router-dom";
+import { Home } from "./components/pages/Home";
+import { Lesson1 } from "./components/pages/Lesson1";
+import { Lesson2 } from "./components/pages/Lesson2";
 
 class App extends Component {
   state = {
@@ -18,11 +21,16 @@ class App extends Component {
 
   render() {
     const { classEl, lessons } = this.state;
+
     return (
       <div className="App">
-        <Title />
         <Navbar classEl={classEl} lessons={lessons} showEl={this.showEl} />
         <NavBtn showEl={this.showEl} classEl={classEl} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/1" component={Lesson1} />
+          <Route exact path="/2" component={Lesson2} />
+        </Switch>
       </div>
     );
   }

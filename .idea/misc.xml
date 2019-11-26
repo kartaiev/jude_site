@@ -3,4 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
+  <component name="ProjectResources">
+    <resource url="http://allfont.ru/allfont.css?fonts=aquarelle" location="$PROJECT_DIR$" />
+  </component>
 </project>
