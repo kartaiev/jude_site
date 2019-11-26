@@ -24,7 +24,6 @@ class Navbar extends Component {
         />
         <ul className={`${classEl}`}>
           <li
-            style={{ float: "left", clear: "both" }}
             ref={el => {
               this.start = el;
             }}
@@ -41,7 +40,6 @@ class Navbar extends Component {
             </li>
           ))}
           <li
-            style={{ float: "left", clear: "both" }}
             ref={el => {
               this.end = el;
             }}

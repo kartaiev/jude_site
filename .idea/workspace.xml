@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb98f78c-5b15-48ce-aef8-d4e4e1541aff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +132,7 @@
       <workItem from="1574679416584" duration="5469000" />
       <workItem from="1574700461229" duration="2311000" />
       <workItem from="1574717653150" duration="9150000" />
-      <workItem from="1574772003321" duration="4470000" />
+      <workItem from="1574772003321" duration="4582000" />
     </task>
     <task id="LOCAL-00001" summary="Draft">
       <created>1574261247953</created>
@@ -204,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574770819524</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scroll buttons">
+      <created>1574780709775</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574780709775</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +231,8 @@
     <MESSAGE value="scrollbar" />
     <MESSAGE value="scrollbar-test" />
     <MESSAGE value="font-test" />
-    <option name="LAST_COMMIT_MESSAGE" value="font-test" />
+    <MESSAGE value="scroll buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll buttons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="77" key="#JavaScript" timestamp="1574347522369">
@@ -246,10 +247,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="315" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1574686003380" />
-    <state x="156" y="23" key="CommitChangelistDialog2" timestamp="1574770819097">
+    <state x="156" y="23" key="CommitChangelistDialog2" timestamp="1574780709361">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="156" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1574770819097" />
+    <state x="156" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1574780709361" />
     <state x="153" y="147" width="755" height="653" key="EditFileWatcherDialog" timestamp="1574348142559">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
